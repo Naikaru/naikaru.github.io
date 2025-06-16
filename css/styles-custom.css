@@ -11090,6 +11090,9 @@ html {
   font-size: 1.25rem;
   line-height: 2.5rem;
 }
+.portfolio-item-technologies {
+  line-height: 2.5rem;
+}
 .portfolio-item-technologies span
 {
   --bs-opacity: 1;
@@ -11132,11 +11135,6 @@ html {
 
 .copyright {
   background-color: #1a252f;
-}
-
-/* switch language */
-.separator {
-  color: #fff;
 }
 
 .lang-option-item {

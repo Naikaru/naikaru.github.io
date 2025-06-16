@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Game Developer Junior Portfolio" />
+        <meta name="author" content="Quentin Penon" />
+        <title>Quentin Penon - Game Developer - Portfolio</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/png" href="assets/img/Q_Favicon_Atomic-Age_Public_NoBackground.png" />
+        <!-- Font Awesome icons (free version)-->
+        <!-- <script src="https://use.fontawesome.com/releases/v6.7.2/js/all.js" crossorigin="anonymous"></script> -->
+        <link href="assets/css/all.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles-custom.css" rel="stylesheet" />
+        <!-- Languages -->
+        <script src="assets/json/en.js"></script>
+        <script src="assets/json/fr.js"></script>
+    </head>
+
+    <body id="page-top">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg bg-custom-dark text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Quentin Penon</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-custom-dark text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about" data-i18n="navigation_about"></a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact" data-i18n="navigation_contact"></a></li>
+                    </ul>
+                    <div class="mx-1 separator">|</div>
+                    <div class="mx-3 lang-option">
+                        <span class="lang-option-item EN">En</span>
+                        <input type="checkbox" class="lang-check" onchange="checkLanguage(this)">
+                        <span class="lang-option-item FR">Fr</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Masthead-->
+        <header class="masthead bg-custom-dark text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets/img/qpn_avatar.png" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading mb-0">Quentin Penon</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Game Programmer ~ Software Engineer</p>
+            </div>
+        </header>
+
+        <!-- Portfolio Section-->
+        <section class="page-section bg-custom-dark portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+
+                    <!-- Portfolio Item SpellSystem -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal_SpellSystem">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <b>Spell System Mini-Project</b>
+                                    <br>
+                                    Unity (2025)
+                                    <br>
+                                    <i class="fas fa-plus fa-xl"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/Screenshot_Zelda-TOTK_Recall.png" alt="..." />
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item OpenWorld -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal_OpenWorld">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <b>Open World Mini-Project</b>
+                                    <br>
+                                    Unity (2025)
+                                    <br>
+                                    <i class="fas fa-plus fa-xl"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/Screenshot_OpenWorld_PlayerAttack.png" alt="..." />
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item TowerDefense -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal_TowerDefense">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <b>Tower Defense Mini-Project</b>
+                                    <br>
+                                    Unity (2025)
+                                    <br>
+                                    <i class="fas fa-plus fa-xl"></i>
+                                </div>                            
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/Screenshot_TowerDefense.png" alt="..." />
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item Survival Horror -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolio_SurvivalHorror">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <b>Survival Horror Mini-Project</b>
+                                    <br>
+                                    GameMaker Studio 2 (2024)
+                                    <br>
+                                    <i class="fas fa-plus fa-xl"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/Screenshot_SurvivalHorror_Overview.png" alt="..." />
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item Top-Down RPG -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioTopDownActionRPG">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">
+                                    <b>Top-Down RPG Mini-Project</b>
+                                    <br>
+                                    GameMaker Studio 2 (2024)
+                                    <br>
+                                    <i class="fas fa-plus fa-xl"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/Screenshot_ActionRPG_Overview.png" alt="..." />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section-->
+        <section class="page-section bg-custom-dark text-white about mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase" data-i18n="about_title"></h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead" data-i18n="about_text_left"></p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead" data-i18n="about_text_right"></p></div>
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-custom-green fw-bold" href="assets/docs/CV_2025-02-25_QUENTIN_PENON.pdf" target="_blank">
+                        <i class="fas fa-download me-2"></i>
+                        <span data-i18n="about_cv"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="footer text-center" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Footer Location-->
+                    <!-- <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Paris
+                            <br />
+                            Île de France, France
+                        </p>
+                    </div> -->
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4 text-bg-custom-dark" data-i18n="footer_contact"></h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Naikaru/GameDev-SpellSystem" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/quentin-penon-1897a0273/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:penon.quentin28@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <!-- <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <p class="lead mb-0">
+                            Freelance is a free to use, MIT licensed Bootstrap theme created by
+                            <a href="http://startbootstrap.com">Start Bootstrap</a>
+                            .
+                        </p>
+                    </div> -->
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section -->
+        <!-- <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
+        </div> -->
+
+        <!-- Portfolio Modals-->
+ 
+        <!-- Portfolio Modal 1 - Spell System -->
+        <div class="portfolio-modal modal fade" id="portfolioModal_SpellSystem" tabindex="-1" aria-labelledby="portfolioModal_SpellSystem" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-secondary pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center text-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title mb-0">
+                                        <p class="mb-2">Spell System</p>
+                                        <p class="mb-1" data-i18n="spell_system_subtitle"></p>
+                                    </h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." /> -->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Screenshot_Zelda-TOTK_Recall.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h3 class="text-center" data-i18n="modal_about"></h3>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <p class="mb-1" data-i18n="spell_system_about_description_top"></p>
+                                    <ul>
+                                        <li data-i18n="spell_system_about_task_1"></li>
+                                        <li data-i18n="spell_system_about_task_2"></li>
+                                        <li data-i18n="spell_system_about_task_3"></li>
+                                        <li data-i18n="spell_system_about_task_4"></li>
+                                        <li data-i18n="spell_system_about_task_5"></li>
+                                    </ul>
+                                    <p class="mb-4" data-i18n="spell_system_about_description_bot"></p>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+
+                                    <!-- ASCEND -->
+                                    <h3>Ascend</h3>
+                                    <p class="mb-4" data-i18n="spell_system_ascend"></p>
+                                    <!-- Portfolio Modal - Video -->
+                                    <video class="img-fluid rounded mb-4" src="assets/videos/zelda-totk/Demo_Zelda-TOTK_Ascend_NoSound.mp4" preload="none" controls autoplay playsinline loop muted></video>
+
+                                    <!-- FUSE -->
+                                    <h3>Fuse</h3>
+                                    <p class="mb-1" data-i18n="spell_system_fuse_1"></p>
+                                    <p class="mb-4" data-i18n="spell_system_fuse_2"></p>
+                                    <!-- Portfolio Modal - Video -->
+                                    <video class="img-fluid rounded mb-4" src="assets/videos/zelda-totk/Demo_Zelda-TOTK_Fuse_NoSound.mp4" preload="none" controls autoplay playsinline loop muted></video>
+
+                                    <!-- RECALL -->
+                                    <h3>Recall</h3>
+                                    <p class="mb-1" data-i18n="spell_system_recall_1"></p>
+                                    <p class="mb-4" data-i18n="spell_system_recall_2"></p>
+                                    <!-- Portfolio Modal - Video -->
+                                    <video class="img-fluid rounded mb-4" src="assets/videos/zelda-totk/Demo_Zelda-TOTK_Recall_NoSound.mp4" preload="none" controls autoplay playsinline loop muted></video>
+
+                                    <!-- ULTRAHAND -->
+                                    <h3>Ultrahand</h3>
+                                    <p class="mb-1" data-i18n="spell_system_ultrahand_1"></p>
+                                    <p class="mb-4" data-i18n="spell_system_ultrahand_2"></p>
+                                    <!-- Portfolio Modal - Video -->
+                                    <video class="img-fluid rounded mb-4" src="assets/videos/zelda-totk/Demo_Zelda-TOTK_Ultrahand_NoSound.mp4" preload="none" controls autoplay playsinline loop muted></video>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h3 class="text-secondary mb-4">Technologies</h3>
+                                    <p class="mb-4 portfolio-item-technologies">
+                                    <span class="fw-semibold">Unity</span>
+                                    <span class="fw-semibold">C#</span>
+                                    <span class="fw-semibold">Blender</span>
+                                    <span class="fw-semibold">Probuilder</span>
+                                    <span class="fw-semibold">Adobe Premiere Pro</span>
+                                    <span class="fw-semibold">Git</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center text-center">
+                                <div class="col-lg-8">
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        <span data-i18n="modal_button_close"></span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 2 - Open World -->
+        <div class="portfolio-modal modal fade" id="portfolioModal_OpenWorld" tabindex="-1" aria-labelledby="portfolioModal_OpenWorld" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-secondary pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center text-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title mb-0">
+                                        Open World
+                                        <br />
+                                        Mini-Project
+                                    </h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <video class="img-fluid rounded mb-4" src="assets/videos/open-world/Demo_OpenWorld_NoSound_Short_720p.mp4" preload="none" controls autoplay playsinline loop muted></video>
+                                    <!-- Portfolio Modal - Text-->
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h3 class="text-center" data-i18n="modal_about"></h3>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <p class="mb-1" data-i18n="open_world_description"></p>
+                                    <ul>
+                                        <li data-i18n="open_world_task_1"></li>
+                                        <li data-i18n="open_world_task_2"></li>
+                                        <li data-i18n="open_world_task_3"></li>
+                                        <li data-i18n="open_world_task_4"></li>
+                                        <li data-i18n="open_world_task_5"></li>
+                                        <li data-i18n="open_world_task_6"></li>
+                                        <li data-i18n="open_world_task_7"></li>
+                                        <li data-i18n="open_world_task_8"></li>
+                                    </ul>
+                                    <p class="mb-4" data-i18n="open_world_github"></p>
+                                </div>
+                                <!-- UI Grid Items-->
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <h3 class="mb-4">UI</h3>
+                                        <p class="mb-2" data-i18n="open_world_ui_desccription"></p>
+                                        <div class="container">
+                                            <div class="row justify-content-center mb-2">
+                                                <!-- Screen Shot Item -->
+                                                <div class="col-md-6 col-lg-6">
+                                                    <div class="mx-auto">
+                                                        <figure>
+                                                            <img class="img-fluid rounded"
+                                                                src="assets/img/open-world/UI/main_menu.png"
+                                                                alt="Game Menu" />
+                                                            <figcaption class="fst-italic">Game Menu</figcaption>
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                                <!-- Screen Shot Item -->
+                                                <div class="col-md-6 col-lg-6">
+                                                    <div class="mx-auto">
+                                                        <figure>
+                                                            <img class="img-fluid rounded"
+                                                                src="assets/img/open-world/UI/customize_menu.png"
+                                                                alt="Customize Menu" />
+                                                            <figcaption class="fst-italic">Customize Menu</figcaption>
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-center mb-2">
+                                                <!-- Screen Shot Item -->
+                                                <div class="mx-auto">
+                                                    <figure>
+                                                        <img class="img-fluid rounded"
+                                                            src="assets/img/open-world/UI/inventory_menu_v2.png"
+                                                            alt="Inventory Menu" />
+                                                        <figcaption class="fst-italic">Inventory Menu</figcaption>
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <h3 class="mb-4">Credits</h3>
+                                        Exercice, guidelines, code examples and assets provided by the formation
+                                        <ul>
+                                            <li> 
+                                                <a href="https://www.udemy.com/course/formation-unity-par-la-pratique-le-cours-ultime-tout-en-1-unity/"><i>Unity 6 par la pratique : Le cours ultime TOUT en 1 !</i></a>                                            
+                                            </li>
+                                        </ul>
+                                        3D Models
+                                        <ul>
+                                            <li>
+                                                <a href="https://assetstore.unity.com/packages/3d/characters/creatures/rpg-monster-buddy-pbr-polyart-253961?srsltid=AfmBOooIDErCXzOsAx0irS9UFqkaZlQqP9t7_nELkA4nKgwPLF7RVqPK">
+                                                RPG Monster Buddy PBR Polyart</a> by <a href="https://assetstore.unity.com/publishers/23554">Dungeon Mason</a>
+                                            </li>
+                                        </ul>
+                                        Visual Effects
+                                        <ul>
+                                            <li>
+                                                <a href="https://assetstore.unity.com/packages/vfx/particles/cartoon-fx-remaster-free-109565?srsltid=AfmBOor8frFnY51OyyfHcL1fetKjDJyhq3t2-gK32CtjLV9QKJpdWFNS">
+                                                Cartoon FX Remaster Free</a> by <a href="https://assetstore.unity.com/publishers/1669">Jean Moreno</a>
+                                            </li>
+                                        </ul>
+                                        Sound Effects
+                                        <ul>
+                                            <li><a href="https://opengameart.org/content/rpg-sound-pack">RPG Sound Pack</a> by <i>artisticdude</i></li>
+                                            <li><a href="https://opengameart.org/content/8-wet-squish-slurp-impacts">8 wet squish, slurp impacts</a> by <i>Independent.nu</i></li>
+                                            <li><a href="https://opengameart.org/content/37-hitspunches">37 hits/punches</a> by <i>Independent.nu</i></li>
+                                            <li><a href="https://pixabay.com/fr/sound-effects/monster-attack-47786/">monster attack</a> by <i>freesound_community</i></li>
+                                            <li><a href="https://pixabay.com/fr/sound-effects/monster-death-grunt-131480/">monster death grunt</a> by <i>666HeroHero</i></li>
+                                            <li><a href="https://pixabay.com/sound-effects/click-21156/">click</a> by <i>666HeroHero</i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <h3 class="text-secondary mb-4">Technologies</h3>
+                                        <p class="mb-4 portfolio-item-technologies">
+                                            <span class="fw-semibold">Unity</span>
+                                            <span class="fw-semibold">C#</span>
+                                            <span class="fw-semibold">Git</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center text-center">
+                                    <div class="col-lg-8">
+                                        <button class="btn btn-primary" data-bs-dismiss="modal">
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            <span data-i18n="modal_button_close"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 3 - Tower Defense -->
+        <div class="portfolio-modal modal fade" id="portfolioModal_TowerDefense" tabindex="-1" aria-labelledby="portfolioModal_TowerDefense" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center text-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title mb-0">
+                                        Tower Defense
+                                        <br />
+                                        Mini-Project
+                                    </h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Screenshot_TowerDefense.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h3 class="text-center" data-i18n="modal_about"></h3>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <p class="mb-1" data-i18n="tower_defense_description"></p>
+                                    <ul>
+                                        <li data-i18n="tower_defense_task_1"></li>
+                                        <li data-i18n="tower_defense_task_2"></li>
+                                        <li data-i18n="tower_defense_task_3"></li>
+                                        <li data-i18n="tower_defense_task_4"></li>
+                                        <li data-i18n="tower_defense_task_5"></li>
+                                        <li data-i18n="tower_defense_task_6"></li>
+                                        <li data-i18n="tower_defense_task_7"></li>
+                                    </ul>
+                                    <p class="mb-4" data-i18n="tower_defense_github"></p>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <div class="container">
+                                            <div class="row justify-content-center mb-2">
+                                                <!-- Screen Shot Item -->
+                                                <div class="mx-auto">
+                                                    <video class="img-fluid rounded mb-4" src="assets/videos/tower-defense/Demo_TowerDefense.mp4" preload="none" controls autoplay playsinline loop muted></video>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-center mb-2">
+                                                <!-- Screen Shot Item -->
+                                                <div class="col-md-6 col-lg-6">
+                                                    <div class="mx-auto">
+                                                        <figure>
+                                                            <video class="img-fluid rounded mb-1" 
+                                                                src="assets/videos/tower-defense/Demo_TowerDefense_TurretBuild.mp4" 
+                                                                preload="none" autoplay playsinline loop muted
+                                                                onloadstart="this.playbackRate = 1.5;"
+                                                            ></video>
+                                                            <figcaption class="fst-italic">Turret Upgrade</figcaption>
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                                <!-- Screen Shot Item -->
+                                                <div class="col-md-6 col-lg-6">
+                                                    <div class="mx-auto">
+                                                        <figure>
+                                                            <video class="img-fluid rounded mb-1" src="assets/videos/tower-defense/Demo_TowerDefense_LevelBuilder.mp4" preload="none" controls autoplay playsinline loop muted></video>
+                                                            <figcaption class="fst-italic">Level Builder</figcaption>
+                                                        </figure>
+                                                   </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <h3 class="mb-4">Credits</h3>
+                                        Exercice, guidelines, code examples and assets provided by the formation
+                                        <ul>
+                                            <li> 
+                                                <a href="https://www.udemy.com/course/formation-unity-par-la-pratique-le-cours-ultime-tout-en-1-unity/"><i>Unity 6 par la pratique : Le cours ultime TOUT en 1 !</i></a>                                            
+                                            </li>
+                                        </ul>
+                                        3D Models
+                                        <ul>
+                                            <li>
+                                                <a href="https://assetstore.unity.com/packages/3d/characters/creatures/rpg-monster-buddy-pbr-polyart-253961?srsltid=AfmBOooIDErCXzOsAx0irS9UFqkaZlQqP9t7_nELkA4nKgwPLF7RVqPK">
+                                                RPG Monster Buddy PBR Polyart</a> by <a href="https://assetstore.unity.com/publishers/23554">Dungeon Mason</a>
+                                            </li>
+                                        </ul>
+                                        Visual Effects
+                                        <ul>
+                                            <li>
+                                                <a href="https://assetstore.unity.com/packages/vfx/particles/cartoon-fx-remaster-free-109565?srsltid=AfmBOor8frFnY51OyyfHcL1fetKjDJyhq3t2-gK32CtjLV9QKJpdWFNS">
+                                                Cartoon FX Remaster Free</a> by <a href="https://assetstore.unity.com/publishers/1669">Jean Moreno</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488?srsltid=AfmBOoraGENlydDY9I4ZDfWUL1UZW_8WsRbYwe65q8Ph_PgeucU60q7T">
+                                                Quick Outline</a> by <a href="https://assetstore.unity.com/publishers/35813">Chris Nolet</a>
+                                            </li>
+                                        </ul>
+                                        Icons
+                                        <ul>
+                                            <li>Icons made by <a href="https://www.flaticon.com/fr/auteurs/smashingstocks" title="smashingstocks">smashingstocks</a> from <a href="https://www.flaticon.com/fr/icones-gratuites/pieces-de-monnaie" title="pièces de monnaie icônes">www.flaticon.com</a></li>
+                                            <li>Icons made by <a href="https://www.flaticon.com/fr/auteurs/vectorsmarket15" title="vectorsmarket15">vectorsmarket15</a> from <a href="https://www.flaticon.com/fr/icones-gratuites/piece-de-monnaie" title="pièces de monnaie icônes">www.flaticon.com</a></li>
+                                            <li>Icons made by <a href="https://www.flaticon.com/authors/stockio" title="Stockio"> Stockio </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
+                                            <li>Icons made by <a href="https://www.flaticon.com/authors/sillybunny" title="sillybunny"> sillybunny </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
+                                            <li>Icons made by <a href="https://www.flaticon.com/authors/graphics-plazza" title="Graphics Plazza"> Graphics Plazza </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <h3 class="text-secondary mb-4">Technologies</h3>
+                                        <p class="mb-4 portfolio-item-technologies">
+                                            <span class="fw-semibold">Unity</span>
+                                            <span class="fw-semibold">C#</span>
+                                            <span class="fw-semibold">Git</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center text-center">
+                                    <div class="col-lg-8">
+                                        <button class="btn btn-primary" data-bs-dismiss="modal">
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            <span data-i18n="modal_button_close"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 4 - Survival Horror -->
+        <div class="portfolio-modal modal fade" id="portfolio_SurvivalHorror" tabindex="-1" aria-labelledby="portfolio_SurvivalHorror" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body pb-5">
+                        <div class="container">
+                            
+                            <div class="row justify-content-center text-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title mb-0">
+                                        Survival Horror
+                                        <br />
+                                        Mini-Project
+                                    </h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <div class="mx-auto">
+                                        <video class="img-fluid rounded mb-4" src="assets/videos/survival-horror/Demo_SurvivalHorror.mp4" preload="none" controls autoplay playsinline loop muted></video>
+                                    </div>
+                                    <!-- <img class="img-fluid rounded mb-5" src="assets/img/survival-horror/survival-horror3.png" alt="..." /> -->
+                                    <!-- Portfolio Modal - Text-->
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h3 class="text-center" data-i18n="modal_about"></h3>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <p class="mb-1" data-i18n="survival_horror_description_1"></p>
+                                    <p class="mb-1" data-i18n="survival_horror_description_2"></p>
+                                    <ul>
+                                        <li data-i18n="survival_horror_task_1"></li>
+                                        <li data-i18n="survival_horror_task_2"></li>
+                                        <li data-i18n="survival_horror_task_3"></li>
+                                        <li data-i18n="survival_horror_task_4"></li>
+                                        <li data-i18n="survival_horror_task_5"></li>
+                                        <li data-i18n="survival_horror_task_6"></li>
+                                    </ul>
+                                    <p class="mb-4" data-i18n="survival_horror_github"></p>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h3 class="mb-4">Credits</h3>
+                                    2D Sprites
+                                    <ul>
+                                        <li><a href="https://sscary.itch.io/the-adventurer-male">The Adventurer Character Asset (Male)</a> by Sscary from itch.io</li>
+                                        <li><a href="https://pixelrogueknight.itch.io/zombie-apocalypse-assetpack">Zombie Apocalypse Asset Pack</a> by Aymen.B</li>
+                                        <li><a href="https://szadiart.itch.io/rogue-fantasy-catacombs">Rogue Fantasy "Catacombs" Tileset</a> by Szadi art.</li>
+                                    </ul>
+                                    Visual Effects
+                                    <ul>
+                                        <li><a href="https://jasontomlee.itch.io/slashfx">Slash FX</a> by jasontomlee</li>
+                                        <li><a href="https://pimen.itch.io/smoke-vfx-1">Smoke N Dust 01</a> by pimen</li>
+                                        <li><a href="https://gianmansuper.itch.io/pixel-torches">Pixel Torches</a> by GIANMANSUPER</li>
+                                    </ul>
+                                    Music & Sound Effects
+                                    <ul>
+                                        <li>Intro Theme <i>The Exorcist</i>. Music by <a href="https://pixabay.com/users/nocopyrightsound633-47610058/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=300473">NoCopyrightSound633</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=300473">Pixabay</a></li>
+                                        <li>Main Theme <i>The Exocist v2</i>. Music by <a href="https://pixabay.com/users/nocopyrightsound633-47610058/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=299862">NoCopyrightSound633</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=299862">Pixabay</a></li>
+                                        <li><a href="https://opengameart.org/content/ghost-monster-voice-moaning-growling">Ghost Monster Voice Moaning & Growling</a> by <a href="https://opengameart.org/users/qubodup">qubodup</a></li>
+                                        <li><a href="https://opengameart.org/content/ghost-breath">Ghost breath</a> by <a href="https://opengameart.org/users/qubodup">qubodup</a></li>
+                                        <li><a href="https://opengameart.org/content/horror-scream1">Horror scream1</a> by <a href="https://opengameart.org/users/vinrax">qubodup</a></li>
+                                    </ul>
+                                    Fonts
+                                    <ul>
+                                        <li><a href="https://managore.itch.io/m5x7">m5x7</a> by <i>Daniel Linssen</i></li>
+                                        <li><a href="https://www.1001freefonts.com/you-murderer.font">You-Murderer</a> by <i>Blambot Fonts</i></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h3 class="text-secondary mb-4">Technologies</h3>
+                                    <p class="mb-4 portfolio-item-technologies">
+                                    <span class="fw-semibold">GameMaker</span>
+                                    <span class="fw-semibold">Git</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row justify-content-center text-center">
+                                <div class="col-lg-8">
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        <span data-i18n="modal_button_close"></span>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Modal 5 - Top-Down RPG  -->
+        <div class="portfolio-modal modal fade" id="portfolioTopDownActionRPG" tabindex="-1" aria-labelledby="portfolioTopDownActionRPG" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center text-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title mb-0">
+                                        Top-Down RPG
+                                        <br />
+                                        Mini-Project
+                                    </h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Screenshot_ActionRPG_Overview.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <h3 class="text-center" data-i18n="modal_about"></h3>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <p class="mb-1" data-i18n="topdown_rpg_description"></p>
+                                    <ul>
+                                        <li data-i18n="topdown_rpg_task_1"></li>
+                                        <li data-i18n="topdown_rpg_task_2"></li>
+                                        <li data-i18n="topdown_rpg_task_3"></li>
+                                        <li data-i18n="topdown_rpg_task_4"></li>
+                                        <li data-i18n="topdown_rpg_task_5"></li>
+                                    </ul>
+                                    <p class="mb-4" data-i18n="topdown_rpg_github"></p>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <!-- Screen Shot Item -->
+                                    <div class=".col-md-4 col-lg-4 mb-4">
+                                        <figure class="mb-1">
+                                            <!-- <img class="img-fluid rounded mb-1" src="assets/img/topdown-actionrpg/Screenshot_TopDownActionRPG_Quest.png" alt="..." /> -->
+                                            <video class="img-fluid rounded mb-1" src="assets/videos/topdown-actionrpg/Demo_TopDownActionRPG_QuestDialog.mp4" preload="none" autoplay playsinline loop muted></video>
+                                            <figcaption class="fst-italic">Quest Dialog</figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- Screen Shot Item -->
+                                    <div class=".col-md-4 col-lg-4 mb-4">
+                                        <figure>
+                                            <video class="img-fluid rounded mb-1" src="assets/videos/topdown-actionrpg/Demo_TopDownActionRPG_ChopWood.mp4" preload="none" autoplay playsinline loop muted></video>
+                                            <figcaption class="fst-italic">Chop Wood</figcaption>
+                                        </figure>
+                                    </div>
+                                    <!-- Screen Shot Item -->
+                                    <div class=".col-md-4 col-lg-4 mb-4">
+                                        <figure>
+                                            <!-- <img class="img-fluid rounded mb-1" src="assets/img/topdown-actionrpg/Screenshot_TopDownActionRPG_PlayerAttack.png" alt="..." /> -->
+                                            <video class="img-fluid rounded mb-1" src="assets/videos/topdown-actionrpg/Demo_TopDownActionRPG_PlayerAttack.mp4" preload="none" autoplay playsinline loop muted></video>
+                                            <figcaption class="fst-italic">Range Attack</figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <h3 class="mb-4">Credits</h3>
+                                        2D Sprites
+                                        <ul>
+                                            <li><a href="https://bagong-games.itch.io/hana-caraka-base-character">Base Character</a> by Bagong Games from <i>itch.io</i></li>
+                                            <li><a href="https://cupnooble.itch.io/">Sprout Lands</a> by Cup Nooble from <i>itch.io</i></li>
+                                            <li><a href="https://deepdivegamestudio.itch.io/">Mystic Woods</a> by Deep Dive Game Studio from <i>itch.io</i></li>
+                                        </ul>
+                                        Fonts
+                                        <ul>
+                                            <li><a href="https://managore.itch.io/m5x7">m5x7</a> by <i>Daniel Linssen</i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <h3 class="text-secondary mb-4">Technologies</h3>
+                                        <p class="mb-4 portfolio-item-technologies">
+                                        <span class="fw-semibold">GameMaker</span>
+                                        <span class="fw-semibold">Git</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-center text-center">
+                                    <div class="col-lg-8">
+                                        <button class="btn btn-primary" data-bs-dismiss="modal">
+                                            <i class="fas fa-xmark fa-fw"></i>
+                                            <span data-i18n="modal_button_close"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>

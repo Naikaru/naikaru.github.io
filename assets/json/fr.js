@@ -7,7 +7,7 @@ var jsonDataFr = {
     /* About */
     "about_title": "À Propos",
     "about_text_left": "Près de 5 ans après avoir commencé en tant que Software Engineer, j'ai décidé de transférer les compétences acquises dans un environnement que j'aime, le jeu vidéo. Faire face à de nouveaux problèmes et débattre des différentes manières de les résoudre est ce que j'apprécie le plus. Bien que similaire sous plein d'aspects, faire des jeux vidéo m'a demandé d'apprendre de nombreuses nouvelles compétences et est devenu mon nouvel objectif de carrière !",
-    "about_text_right": "J'admire profondemment ces artistes et créateurs qui m'ont fait voyager des milliers d'heures, ressentir plein d'émotions, et même créer des amitiés. J'aspire maitnenant à le devenir moi-même, c'est pourquoi j'ai commencé à développer mes propres projets en utilisant Unity ou GameMaker. Faire des jeu, c'est difficile, ça demande énormément de temps, d'orchestrer des centaines d'éléments ensemble, mais c'est avant tout super intéressant !",
+    "about_text_right": "J'admire profondemment ces artistes et créateurs qui m'ont fait voyager des milliers d'heures, ressentir plein d'émotions, et même créer des amitiés. J'aspire maintenant à participer à l'un de ces projets moi-même ! C'est pourquoi j'ai commencé à développer mes propres projets en utilisant Unity ou GameMaker. Faire des jeu, c'est difficile, ça demande énormément de temps, d'orchestrer des centaines d'éléments ensemble, mais c'est avant tout super intéressant !",
     "about_cv": "Obtenez mon CV !",
 
     /* Modals Common */

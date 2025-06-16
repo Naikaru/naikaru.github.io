@@ -11031,7 +11031,7 @@ html {
   background-color: #000000;
   /* background-image: url(../assets/img/background.png); */
   background-image: url(../assets/img/OpenWorld_Background.png);
-  background-size: 100% 100%;
+  background-size: cover;
   background-color: rgb(0 0 0 / 50%) !important;
   background-blend-mode: multiply;
   background-position: center;

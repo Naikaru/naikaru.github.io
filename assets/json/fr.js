@@ -6,8 +6,8 @@ var jsonDataFr = {
 
     /* About */
     "about_title": "À Propos",
-    "about_text_left": "Près de 5 ans après avoir commencé en tant que Software Engineer, j'ai décidé de transférer les compétences acquises dans un environnement que j'aime, le jeu vidéo. Faire face à de nouveaux problèmes et débattre des différentes manières de les résoudre est ce que j'appréciais le plus dans mon travail. Bien que similaire sous de nombreux aspects, la réalisation de jeux vidéo m'a fait acquérir de nouvelles compétences et c'est devenu mon nouvel objectif de carrière !",
-    "about_text_right": "J'admire profondemment ces artistes et créateurs qui m'ont fait voyager des milliers d'heures, ressentir beaucoup d'émotions, et même créer des amitiés. J'aspire maintenant à participer à l'un de ces projets moi-même ! C'est pourquoi j'ai commencé à développer mes propres projets en utilisant Unity ou GameMaker. Faire des jeux, c'est difficile, cela demande énormément de temps, d'orchestrer des centaines d'éléments ensemble, mais c'est avant tout super intéressant !",
+    "about_text_left": "Près de 5 ans après avoir commencé en tant que Software Engineer, j'ai décidé de transférer mes compétences dans un nouvel environnement qui me fait rêver, celui du jeu vidéo. Faire face à de nouveaux problèmes et débattre des différentes manières de les résoudre est ce me stimule le plus dans mon travail. Bien que similaire sous de nombreux aspects, la réalisation de jeux vidéo m'a permis d'acquérir de nouvelles compétences et c'est devenu mon nouvel objectif de carrière !",
+    "about_text_right": "J'admire profondément ces artistes et créateurs qui m'ont fait voyager des milliers d'heures, ressentir beaucoup d'émotions, et même créer des amitiés. J'aspire maintenant à participer à la création de jeux moi-même ! C'est pourquoi j'ai commencé à développer mes propres projets en utilisant Unity ou GameMaker. Faire des jeux est difficile, demande énormément de temps et d'orchestrer des centaines d'éléments ensemble, mais c'est avant tout super amusant !",
     "about_cv": "Obtenez mon CV !",
 
     /* Modals Common */

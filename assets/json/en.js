@@ -6,7 +6,7 @@ var jsonDataEn = {
 
     /* About */
     "about_title": "About me",
-    "about_text_left": "After almost 5 years as a Software Engineer, I decided to transfer all the skills I learned to a new environment where I wanted to thrive. Facing new challenges and problems and discussing of the infinite ways of solving them is what I loved the most about my job. Quite similar in a lot of aspects but asking me to learn (and relearn) a lot of competences, making Video Games has become my new goal !",
+    "about_text_left": "After almost 5 years as a Software Engineer, I decided to transfer all the skills I learned to a new environment where I wanted to thrive. Facing new challenges and problems and discussing of the infinite ways of solving them is what I loved the most about my job. Although similar in many ways, it requires me to acquire a lot of new skills, and making video games has become my new goal !",
     "about_text_right": "I deeply admire these fantastic creators who have made me travel for thousands of hours, feel countless emotions, and even create relationships. I now aspire to be part of one of these projects myself ! This is why I started developing my own projects using either Unity or GameMaker Studio 2. Making games is hard, it takes a lot of time, it requires to orchestrate a thousands of different pieces together, but most of all it's a lot of fun !",
     "about_cv": "Get my CV !",
 

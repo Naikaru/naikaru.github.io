@@ -4,6 +4,9 @@ var jsonDataFr = {
     "navigation_about": "À Propos",
     "navigation_contact": "Me Contacter",
 
+    /* Header */
+    "header_job_title": "Game Programmer ~ Ingénieur Informatique",
+
     /* About */
     "about_title": "À Propos",
     "about_text_left": "Près de 5 ans après avoir commencé en tant que Software Engineer, j'ai décidé de transférer mes compétences dans un nouvel environnement qui me fait rêver, celui du jeu vidéo. Faire face à de nouveaux problèmes et débattre des différentes manières de les résoudre est ce me stimule le plus dans mon travail. Bien que similaire sous de nombreux aspects, la réalisation de jeux vidéo m'a permis d'acquérir de nouvelles compétences et c'est devenu mon nouvel objectif de carrière !",

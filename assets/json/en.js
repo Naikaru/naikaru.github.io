@@ -4,6 +4,9 @@ var jsonDataEn = {
     "navigation_about": "About",
     "navigation_contact": "Contact",
 
+    /* Header */
+    "header_job_title": "Game Programmer ~ Software Engineer",
+
     /* About */
     "about_title": "About me",
     "about_text_left": "After almost 5 years as a Software Engineer, I decided to transfer all my skills to a new environment where I wanted to thrive. Facing new challenges and problems and discussing of the infinite ways of solving them is what I loved the most about my job. Although similar in many ways, it requires me to acquire a lot of new skills, and making video games has become my new goal !",

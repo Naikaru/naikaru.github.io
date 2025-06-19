@@ -10,7 +10,7 @@ var jsonDataEn = {
     /* About */
     "about_title": "About me",
     "about_text_left": "After almost 5 years as a Software Engineer, I decided to transfer all my skills to a new environment where I wanted to thrive. Facing new challenges and problems and discussing of the infinite ways of solving them is what I loved the most about my job. Although similar in many ways, it requires me to acquire a lot of new skills, and making video games has become my new goal !",
-    "about_text_right": "I deeply admire these fantastic creators who have made me travel for thousands of hours, feel countless emotions, and even create relationships. I now aspire to be part of one of these projects myself ! This is why I started developing my own projects using either Unity or GameMaker Studio 2. Making games is hard, it takes a lot of time, it requires to orchestrate a thousands of different pieces together, but most of all it's a lot of fun !",
+    "about_text_right": "I deeply admire these creators who have made me travel for thousands of hours, feel countless emotions, and even create relationships. I now aspire to be part of one of these projects myself ! This is why I started developing my own projects using either Unity or GameMaker Studio 2. Making games is hard, it takes a lot of time, it requires to orchestrate hundreds of different pieces together, but most of all it's really exciting !",
     "about_cv": "Get my CV !",
 
     /* Modals Common */
@@ -37,8 +37,8 @@ var jsonDataEn = {
     /* Open World Modal */
     "open_world_description": "A Third Person Open World mini-project introducing me to all different kind of problematics to develop and solve ! Some of the tasks realized in this project :",
     "open_world_task_1": "Implement the <b>UI</b> for the different <b>menus</b> and the <b>inventory</b>;",
-    "open_world_task_2": "Architecture the <b>State Machine</b> for the <i>Enemies</i>, using <i>Scriptable Objects</i> allowing for <b>code flexibility and maintainability</b> with respect to the <i>SOLID principles</i>;",
-    "open_world_task_3": "Program all the <b>Player Controllers</b> to describe its behaviour and all interaction with its environnement (player inputs, entities, objects, events, ...);",
+    "open_world_task_2": "Architecture a more complexe <b>State Machine</b> for our <i>enemies</i> using <i>Scriptable Objects</i>, allowing for easily assigning new behaviours and ensuring <b>modularity and maintainability</b> with respect to <i>SOLID principles</i>;",
+    "open_world_task_3": "Program all the <b>Player Controllers</b> to describe all his behaviours and interactions with his environnement (inputs, entities, objects, events, etc);",
     "open_world_task_4": "Dive into the Unity's <b>Animator</b> to control our player and enemies animation depending on their states and actions;",
     "open_world_task_5": "Add <i>PNJ</i> and <b>basic quests and dialogs systems</b> based on Unity's Scriptable Objects for modularity and generalized behaviours;",
     "open_world_task_6": "Prepare simple <b>cutscenes</b> to introduce new zones or objectives for the player to reach;",

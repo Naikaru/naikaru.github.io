@@ -38,8 +38,8 @@ var jsonDataFr = {
     /* Open World Modal */
     "open_world_description": "Un projet d'Open World introduire un ensemble de nouvelles fonctionnalités à développer et problématiques à comprendre et résoudre ! Voici les tâches réalisées dans ce projet :",
     "open_world_task_1": "Ajouté une <b>UI</b> pour les différents <b>menus</b> et notre <b>inventaire</b>;",
-    "open_world_task_2": "Architecturé une <b>State Machine</b> pour les <i>ennemies</i>, en utilisant les <i>Scriptable Objects</i> permettant une grande <b>flexibilité et maintenabilité</b> à notre code en respectant les <i>principes SOLID</i>;",
-    "open_world_task_3": "Programmé un <b>Player Controller</b> pour tous ses comportements et interactions avec l'environnement (les inputs, entités, objets, events, ...);",
+    "open_world_task_2": "Architecturé une <b>State Machine</b> plus complexe pour les <i>ennemies</i> qui utilise les <i>Scriptable Objects</i>, nous permettant d'assigner facilement de nouveaux comportements, et garantissant une grande <b>modularité et maintenabilité</b> à notre code en respectant les <i>principes SOLID</i>;",
+    "open_world_task_3": "Programmé un <b>Player Controller</b> pour tous ses comportements et interactions avec l'environnement (les inputs, entités, objets, events, etc);",
     "open_world_task_4": "Plongé dans l'<b>Animator</b> de Unity pour contrôler les animations de notre joueur et de nos enemies selon leurs état et actions;",
     "open_world_task_5": "Ajouté des <i>PNJs</i> et un <b>système de quêtes et de dialogues</b> basé sur les <i>Scriptable Objects</i> de Unity pour plus de modularité;",
     "open_world_task_6": "Préparé de simples <b>cinématiques</b> pour introduire les nouvelles zones ou objectifs à atteindre par le joueur;",

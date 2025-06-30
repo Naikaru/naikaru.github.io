@@ -9,8 +9,8 @@ var jsonDataEn = {
 
     /* About */
     "about_title": "About me",
-    "about_text_left": "After almost 5 years as a Software Engineer, I decided to transfer all my skills to a new environment where I wanted to thrive. Facing new challenges and problems and discussing of the infinite ways of solving them is what I loved the most about my job. Although similar in many ways, it requires me to acquire a lot of new skills, and making video games has become my new goal !",
-    "about_text_right": "I deeply admire these creators who have made me travel for thousands of hours, feel countless emotions, and even create relationships. I now aspire to be part of one of these projects myself ! This is why I started developing my own projects using either Unity or GameMaker Studio 2. Making games is hard, it takes a lot of time, it requires to orchestrate hundreds of different pieces together, but most of all it's really exciting !",
+    "about_text_left": "After almost 5 years as a Software Engineer, I have decided to transfer all my skills to make something that I deeply love: video games. Facing new challenges and problems and discussing of the infinite ways of solving them is what I loved the most about my job. Although similar in many ways, it requires me to acquire a lot of new skills, and making video games has become my new goal !",
+    "about_text_right": "I deeply admire these creators who have made me travel for thousands of hours, feel countless emotions, and even create relationships. I now aspire to be part of one of these projects myself ! This is why I started developing my own projects using either Unity or GameMaker. Making games is hard, it takes a lot of time, it requires to orchestrate hundreds of different pieces together, but most of all it's really exciting !",
     "about_cv": "Get my CV !",
 
     /* Modals Common */
@@ -44,7 +44,7 @@ var jsonDataEn = {
     "open_world_task_6": "Prepare simple <b>cutscenes</b> to introduce new zones or objectives for the player to reach;",
     "open_world_task_7": "Manipulate Unity's optimizations solutions such as <i>partial scene loading</i> and <i>occlusion culling</i>;",
     "open_world_task_8": "And many more, from adding visual and sound effects, adapt level design, make a save system, allow for player customization...",
-    "open_world_github": "Source code is available on <a href='https://github.com/Naikaru?tab=repositories' target='_blank'>Github</a>.",
+    "open_world_github": "Source code is available on <a href='https://github.com/Naikaru/GameDev-OpenWorld' target='_blank'>Github</a>.",
     "open_world_ui_desccription": "A few screeshots to highlight the menus UI that are not shown in the project demo above.",
 
     /* Tower Defense Modal */
@@ -56,7 +56,7 @@ var jsonDataEn = {
     "tower_defense_task_5": "Two types of turrets : <i><b>projectiles</b> for burst damage and <b>flamethrower</b> for dps damages</i>;",
     "tower_defense_task_6": "Strong emphasis on <b>design patterns implementation</b> (Factories, Builder, Observers, Object Pooling, ...);",
     "tower_defense_task_7": "Develop our own level builder to design and create our levels faster !",
-    "tower_defense_github": "Source code is available on <a href='https://github.com/Naikaru?tab=repositories' target='_blank'>Github</a>.",
+    "tower_defense_github": "Source code is available on <a href='https://github.com/Naikaru/GameDev-TowerDefense' target='_blank'>Github</a>.",
 
     /* Survival Horror Modal */
     "survival_horror_description_1": "Heavily inspired by my souvenirs of the Zombie mode from <i>Call of Duty - Black Ops</i> and more specifically by the map <i>Kino Der Toten</i>, but in a 2D fashion !",
@@ -67,7 +67,7 @@ var jsonDataEn = {
     "survival_horror_task_4": "Coding a <b>generic gun object for diverse firing behaviours</b>, allowing to control many properties such as knockback, firing cooldown, projectiles number, dispersion, range and speed, automatic shooting, and so on;",
     "survival_horror_task_5": "A simplistic <b>wave system manager</b>, relying on unlocked enemy spawns and a glimpse of randomness to make each run unique !",
     "survival_horror_task_6": "Adding plenty of cool sound and visual effects from talented artists !",
-    "survival_horror_github": "Source code is available on <a href='https://github.com/Naikaru?tab=repositories' target='_blank'>Github</a>.",
+    "survival_horror_github": "Source code is available on <a href='https://github.com/Naikaru/GameDev-SurvivalHorror' target='_blank'>Github</a>.",
 
     /* Top Down RPG Modal */
     "topdown_rpg_description": "This first 2D Top-Down RPG project taught us how to build basic behaviours and interactions.",
@@ -76,7 +76,7 @@ var jsonDataEn = {
     "topdown_rpg_task_3": "Adding multiple items thus interactions (bow, axe and pickaxe to throw arrows, chop wood, break rocks);",
     "topdown_rpg_task_4": "Basic <b>dialogs and quests system</b>;",
     "topdown_rpg_task_5": "Displaying basic <b>UI</b> information for items, loots and health;",
-    "topdown_rpg_github": "Source code is available on <a href='https://github.com/Naikaru?tab=repositories' target='_blank'>Github</a>.",
+    "topdown_rpg_github": "Source code is available on <a href='https://github.com/Naikaru/GameDev-TopDownRPG' target='_blank'>Github</a>.",
 
     /* Footer */
     "footer_contact": "Contact"

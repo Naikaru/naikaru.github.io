@@ -9,7 +9,7 @@ var jsonDataFr = {
 
     /* About */
     "about_title": "À Propos",
-    "about_text_left": "Près de 5 ans après avoir commencé en tant que Software Engineer, j'ai décidé de transférer mes compétences dans un nouvel environnement qui me fait rêver, celui du jeu vidéo. Faire face à de nouveaux problèmes et débattre des différentes manières de les résoudre est ce me stimule le plus dans mon travail. Bien que similaire sous de nombreux aspects, la réalisation de jeux vidéo m'a permis d'acquérir de nouvelles compétences et c'est devenu mon nouvel objectif de carrière !",
+    "about_text_left": "Près de 5 ans après avoir commencé en tant que Software Engineer, j'ai décidé de transférer mes compétences pour un environnement que j'aime profondément, celui du jeu vidéo. Faire face à de nouveaux problèmes et débattre des différentes manières de les résoudre est ce qui me stimule le plus dans mon travail. Bien que similaire sous de nombreux aspects, la réalisation de jeux vidéo m'a permis d'acquérir de nouvelles compétences et c'est devenu mon nouvel objectif de carrière !",
     "about_text_right": "J'admire profondément ces artistes et créateurs qui m'ont fait voyager des milliers d'heures, ressentir beaucoup d'émotions, et même créer des amitiés. J'aspire maintenant à participer à la création de jeux moi-même ! C'est pourquoi j'ai commencé à développer mes propres projets en utilisant Unity ou GameMaker. Faire des jeux est difficile, demande énormément de temps et d'orchestrer des centaines d'éléments ensemble, mais c'est avant tout super amusant !",
     "about_cv": "Obtenez mon CV !",
 
@@ -45,7 +45,7 @@ var jsonDataFr = {
     "open_world_task_6": "Préparé de simples <b>cinématiques</b> pour introduire les nouvelles zones ou objectifs à atteindre par le joueur;",
     "open_world_task_7": "Manipulé quelques solutions d'optimisations de Unity comme des <i>chargements partiels de scène</i> et de l'<i>occlusion culling</i>;",
     "open_world_task_8": "Ajouté des effets visuels et sonores, adapté le level design, mis en place un système de sauvegarde, permis la customisation du joueur...",
-    "open_world_github": "Code source disponible sur <a href='https://github.com/Naikaru?tab=repositories' target='_blank'>Github</a>.",
+    "open_world_github": "Code source disponible sur <a href='https://github.com/Naikaru/GameDev-OpenWorld' target='_blank'>Github</a>.",
     "open_world_ui_desccription": "A few screeshots to highlight the menus UI that are not shown in the project demo above.",
 
     /* Tower Defense Modal */
@@ -57,18 +57,18 @@ var jsonDataFr = {
     "tower_defense_task_5": "Deux types de tourelles : certaines lançant des <i><b>projectiles</b> d'autre brûlant les ennemis à l'aide d'un <b>lance-flamme</b>;",
     "tower_defense_task_6": "Une forte emphase sur l'<b>implémentation de design patterns</b> (Factories, Builder, Observers, Object Pooling, ...);",
     "tower_defense_task_7": "Développer notre propre outil de <i>construction de niveau</i> pour accélérer le design de nos niveau;",
-    "tower_defense_github": "Code source disponible sur <a href='https://github.com/Naikaru?tab=repositories' target='_blank'>Github</a>.",
+    "tower_defense_github": "Code source disponible sur <a href='https://github.com/Naikaru/GameDev-TowerDefense' target='_blank'>Github</a>.",
 
     /* Survival Horror Modal */
     "survival_horror_description_1": "Grandement inspiré de mes souvenirs du mode Zombie de <i>Call of Duty - Black Ops</i> et plus spécifiquement de la map <i>Kino Der Toten</i>, mais en 2D !",
-    "survival_horror_description_2": "Ce mini-projet m'a aidé à améliorer considérablement mes compétences pour la programmation 2D avec GameMaker Studio 2 :",
+    "survival_horror_description_2": "Ce mini-projet m'a aidé à améliorer considérablement mes compétences pour la programmation 2D avec GameMaker :",
     "survival_horror_task_1": "Designé une map 2D et <b>tile-based collisions</b>;",
     "survival_horror_task_2": "Ajouté une IA basique pour nos ennemies de poursuite du joueur en utilisant <i>GameMaker</i> <b>path finding system</b>;",
     "survival_horror_task_3": "Implémenté une <b>State Machine</b> complète pour le joueur;",
     "survival_horror_task_4": "Codé un <b>objet <i>Gun</i> générique avec divers modes de tirs</b>, permettant le contrôle de nombreuses propriétés <i>(knockback, firing cooldown, projectiles number, dispersion, range and speed, automatic shooting, ...)</i>;",
     "survival_horror_task_5": "Mis en place un <b>système d'apparition par vague</b> des ennemis, reposant sur les spawns débloqués et un brin d'aléatoire pour rendre chaque partie unique !",
     "survival_horror_task_6": "Enfin, ajouté plein d'effets visuels et sonores d'artistes talentueux;",
-    "survival_horror_github": "Code source disponible sur <a href='https://github.com/Naikaru?tab=repositories' target='_blank'>Github</a>.",
+    "survival_horror_github": "Code source disponible sur <a href='https://github.com/Naikaru/GameDev-SurvivalHorror' target='_blank'>Github</a>.",
 
     /* Top Down RPG Modal */
     "topdown_rpg_description": "Ce premier Top-Down RPG m'a appris à construire les comportements et interactions de base, et pourtant essentiels à l'ensemble des jeux. Nous avons : ",
@@ -77,7 +77,7 @@ var jsonDataFr = {
     "topdown_rpg_task_3": "Ajouté plusieurs équipements et interactions (un arc, une hâche, une pioche pour tirer des flèches, couper du bois, casser des rochers);",
     "topdown_rpg_task_4": "Mis en place un <b>système de quêtes et dialogues</b>;",
     "topdown_rpg_task_5": "Affiché des informations pour nos équipements, ressources récoltés et la vitalité de notre personnage;",
-    "topdown_rpg_github": "Code source disponible sur <a href='https://github.com/Naikaru?tab=repositories' target='_blank'>Github</a>.",
+    "topdown_rpg_github": "Code source disponible sur <a href='https://github.com/Naikaru/GameDev-TopDownRPG' target='_blank'>Github</a>.",
 
     /* Footer */
     "footer_contact": "Me Contacter"

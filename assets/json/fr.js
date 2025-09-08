@@ -9,7 +9,7 @@ var jsonDataFr = {
 
     /* About */
     "about_title": "À Propos",
-    "about_text_left": "Près de 5 ans après avoir commencé en tant que Software Engineer, j'ai décidé de transférer mes compétences pour un environnement que j'aime profondément, celui du jeu vidéo. Faire face à de nouveaux problèmes et débattre des différentes manières de les résoudre est ce qui me stimule le plus dans mon travail. Bien que similaire sous de nombreux aspects, la réalisation de jeux vidéo m'a permis d'acquérir de nouvelles compétences et c'est devenu mon nouvel objectif de carrière !",
+    "about_text_left": "Près de 5 ans après avoir commencé en tant qu'ingénieur en informatique, j'ai décidé de transférer mes compétences pour un environnement que j'aime profondément, celui du jeu vidéo. Faire face à de nouveaux problèmes et débattre des différentes manières de les résoudre est ce qui me stimule le plus dans mon travail. Bien que similaire sous de nombreux aspects, la réalisation de jeux vidéo m'a permis d'acquérir de nouvelles compétences et c'est devenu mon nouvel objectif de carrière !",
     "about_text_right": "J'admire profondément ces artistes et créateurs qui m'ont fait voyager des milliers d'heures, ressentir beaucoup d'émotions, et même créer des amitiés. J'aspire maintenant à participer à la création de jeux moi-même ! C'est pourquoi j'ai commencé à développer mes propres projets en utilisant Unity ou GameMaker. Faire des jeux est difficile, demande énormément de temps et d'orchestrer des centaines d'éléments ensemble, mais c'est avant tout super amusant !",
     "about_cv": "Obtenez mon CV !",
 

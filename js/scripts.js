@@ -111,3 +111,43 @@ window.addEventListener("DOMContentLoaded", async () => {
   const langData = await fetchLanguageData('en');
   updateContent(langData);
 });
+
+// Call stopVideo to reset videos on modal close
+async function stopVideo(e) {
+    var videos = e.getElementsByTagName("video");
+
+    for (var video of videos) {
+        video.pause();
+        video.currentTime = 0;
+    };
+}
+
+window.addEventListener("DOMContentLoaded", async () => {
+
+    // Add on hide event listeners on the modals
+
+    // Spell System Modal
+    const modalSpellSystem = document.getElementById('portfolioModal_SpellSystem')
+    modalSpellSystem.addEventListener('hide.bs.modal', function (event) {
+        stopVideo(event.target);
+    });
+
+    // Open World Modal
+    const modalOpenWorld = document.getElementById('portfolioModal_OpenWorld')
+    modalOpenWorld.addEventListener('hide.bs.modal', function (event) {
+        stopVideo(event.target);
+    });
+
+    // Tower Defense Modal
+    const modalTowerDefense = document.getElementById('portfolioModal_TowerDefense')
+    modalTowerDefense.addEventListener('hide.bs.modal', function (event) {
+        stopVideo(event.target);
+    });
+
+    // Survival Horror Modal
+    const modalSurvivalHorror = document.getElementById('portfolioModal_SurvivalHorror')
+    modalSurvivalHorror.addEventListener('hide.bs.modal', function (event) {
+        stopVideo(event.target);
+    });
+
+});

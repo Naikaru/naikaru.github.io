@@ -10914,6 +10914,17 @@ html {
   border-radius: 1rem;
   border-color: #2c3e50;
 }
+.divider-custom-line.large {
+  max-width: none;
+  width: 80%;
+}
+.divider-custom-line.thin {
+  height: 0.10rem;
+}
+.divider-custom-line.mbt {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
 }

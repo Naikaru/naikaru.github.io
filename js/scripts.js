@@ -126,11 +126,25 @@ window.addEventListener("DOMContentLoaded", async () => {
 
     // Add on hide event listeners on the modals
 
+    const modalProjectileSystem = document.getElementById('portfolioModal_ProjectileSystem')
+    modalProjectileSystem.addEventListener('hide.bs.modal', function (event) {
+        stopVideo(event.target);
+    });
+
     // Spell System Modal
     const modalSpellSystem = document.getElementById('portfolioModal_SpellSystem')
     modalSpellSystem.addEventListener('hide.bs.modal', function (event) {
         stopVideo(event.target);
     });
+
+    // Unity 3D Course
+    const modalUnity3DCourse = document.getElementById('portfolioModal_Unity3DCourse')
+    modalUnity3DCourse.addEventListener('hide.bs.modal', function (event) {
+        stopVideo(event.target);
+    });
+
+    /* 
+    // Both modals below replaced with 'portfolioModal_Unity3DCourse' 
 
     // Open World Modal
     const modalOpenWorld = document.getElementById('portfolioModal_OpenWorld')
@@ -143,6 +157,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     modalTowerDefense.addEventListener('hide.bs.modal', function (event) {
         stopVideo(event.target);
     });
+    */
 
     // Survival Horror Modal
     const modalSurvivalHorror = document.getElementById('portfolioModal_SurvivalHorror')

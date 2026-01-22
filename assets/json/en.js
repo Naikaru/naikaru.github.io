@@ -17,6 +17,22 @@ var jsonDataEn = {
     "modal_about": "About",
     "modal_button_close":  "Close",
 
+    /* Projectile System Modal */
+    "projectile_system_about_description_top": "As I wanted to learn more about architecturing game projects, and making more generic and modular systems, I tryed to reproduce the amazing <i><b>Projectile Factory</b></i>, made by <a class='' href='https://infinitypbr.gitbook.io/infinity-pbr/projectile-factory/projectile-factory-documentation'>Magic Pig Games (Infinity PBR)</a>. This projet helped us learning how to develop highly configurable systems along with some of the projectiles logic and behaviours.",
+    "projectile_system_about_tasks_top": "In order to implement our projectile system, we had to:",
+    "projectile_system_about_task_1": "Reverse engineer an existing project, just by having access to its documentation and watching its demos;",
+    "projectile_system_about_task_2": "Use UML modeling to understand the project's bigger picture and help us architecturing more precisely our own system;",
+    "projectile_system_about_task_3": "Implement the system intensively using <i>Unity's Scriptable Objects</i> for more modularity;",
+    "projectile_system_about_task_4": "Add a lot of events to hook up on for our <i><b>ProjectileSpawner</i></b> and spawned <i><b>Projectiles</i></b>;",
+    "projectile_system_about_task_5": "Create a bunch of standard <i><b>behaviours</i></b> (<i>Audio, Movement, Collision, Destroy, Visual Effects</i>) to demo our system's great configurability !",
+    "projectile_system_about_tasks_bot": "We can then use this system in our projects to easily allow the actors to have a great variety of behaviours for their projectiles !",
+    "projectile_system_about_description_bot": "To learn more about the implementations choices you may refer to the project's <a class='' href='https://github.com/Naikaru/GameDev-SpellSystem' target='_blank'>Github</a>.",
+    "projectile_system_projectiles_and_behaviours_1": "<b>Projectiles</b> are the game objects spawned by the <b>ProjectileSpawner</b> and <b>Behviours</b> describe their logic. Projectiles can be equipped with a great variety of (optional) behaviours allowing us to describe all their actions during their entire lifecycle, from spawn to destruction, specifying movement, collisions, audio and visual effects.",
+    "projectile_system_projectiles_and_behaviours_2": "In addition to behaviours, we allow <i>Object Pooling</i> for each different projectile. Projectiles can also be equipped with various <i>Observers</i> to track their interactions with the environnement and other actors (here we demo a on projectile hit observer to visualize <i>Score Combo</i>).",
+    "projectile_system_spawn_behaviours": "Different <b><i>Spawn Behaviour</b></i>s responsible for the way projectiles are spawned, can be very easily equiped. On can then easily tweak the number of projectiles spawned, their dispersion, delays between projectiles or volleys of projectiles, shift their spawn position, etc.",
+    "projectile_system_spawn_point_manager": "It is possible to define several <i><b>SpawnPoints</i></b> for the same <i>ProjectileSpawner</i> along with the right <i><b>SpawnPointManager</b></i> to define a specific spawning strategy to adapt to all the variety of weapons and add nice visual effects !",
+    "projectile_system_spawn_point_manager_exemple": "Below an exemple with two turrets, each equipped with a <i>ProjectileSpawner</i>. The first turret has two <i>SpawnPoints</i>, and a machine gun spawn behaviour. The second turret has four <i>SpawnPoints</i>, and sequentially fires volleys of 2 projectiles for each side. By using the right <i>SpawnPointManager</i> and using appropriate events, we can very easily adapt from where to fire our projectiles, and when to play our animations and trigger visual and sounds effects !",
+
     /* Spell System Modal */
     "spell_system_subtitle": "<i>Inspired by Zelda<br />Tears of the Kingdom</i>",
     "spell_system_about_description_top": "In order to develop more advanced and complexe interaction between the player and its environement, we created this mini-project trying to reproduce (in a simplified way) some of the Zelda ToTK Spells. This allowed us to work on the following aspects:",

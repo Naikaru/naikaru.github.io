@@ -17,6 +17,24 @@ var jsonDataFr = {
     "modal_about": "À Propos",
     "modal_button_close":  "Fermer",
 
+    /* Projectile System Modal */
+    "projectile_system_about_description_top": "Afin d'apprendre à mieux architecturer mes projets, et développer des systèmes plus modulaires et génériques, j'ai tenté de reproduire (en partie) le génial <i><b>Projectile Factory</b></i>, fait par <a class='' href='https://infinitypbr.gitbook.io/infinity-pbr/projectile-factory/projectile-factory-documentation'>Magic Pig Games (Infinity PBR)</a>. Ce projet m'a appris à développer un système hautement configurable et une partie des logiques et comportements propres aux projectiles.",
+
+    "projectile_system_about_tasks_top": "Pour implémenter notre <i>système de projectile</i>, nous avons :",
+    "projectile_system_about_task_1": "<i>Reverse engineer</i> un projet existant par le seul accès à sa documentation et à ses démos;",
+    "projectile_system_about_task_2": "Utilisé la modélisation UML pour nous aider à comprendre le projet dans sa globalité et réaliser une conception en amont plus précise;",
+    "projectile_system_about_task_3": "Implémenté le système en utilisant les <i>Unity's Scriptable Objects</i> pour plus de modularité;",
+    "projectile_system_about_task_4": "Ajouté de nombreux <i>events</i> auxquels souscrire pour nos <i><b>ProjectileSpawner</i></b> (la classe effectivement responsable de la création des projectiles) et <i><b>Projectiles</i></b>;",
+    "projectile_system_about_task_5": "Créé un ensemble de <i><b>behaviours</i></b> basiques (<i>Audio, Movement, Collision, Destroy, Visual Effects</i>) pour présenter la grande configurabilité de notre systême !",
+    "projectile_system_about_tasks_bot": "Nous pouvons désormais utiliser ce système facilement et permettre aux acteurs de facilement intégrer une grande variété de comportements à leur projectiles !",
+    "projectile_system_about_description_bot": "Pour en apprendre plus sur les choix d'implémentation, le code source est disponible sur <a href='https://github.com/Naikaru/GameDev-OpenWorld' target='_blank'>Github</a>.",
+    "projectile_system_projectiles_and_behaviours_1": "Les <b>Projectiles</b> sont les objects créés par le <b>ProjectileSpawner</b> et les <b>Behviours</b> décrivent leurs comportements. Les <i>Projectiles</i> peuvent être équippés avec un ensemble de <i>behaviours</i> (optionels) qui permettent de définir leurs actions durant tout leur cycle de vie, de l'apparition à la destruction, les trajectoires et mouvements, les actions à réaliser en cas de collision, ainsi que les effects sonores et visuels.",
+    "projectile_system_projectiles_and_behaviours_2": "En plus des <i>behaviours</i>, on permet l'<i>Object Pooling</i> pour chaque projectile différent. Des <i>Observer</i> peuvent également être ajoutés aux <i>projectiles</i> pour traquer leurs interactions avec l'environnement et les autres acteurs tout au long de leur cycle de vie.",
+    "projectile_system_spawn_behaviours": "Différents <b><i>Spawn Behaviour</b></i>s, responsables de la manière dont les projectiles sont instanciés peuvent facilement être équipés. On peut ainsi facilement jouer sur le nombre de projectiles, leur dispersion, des potentiels délais entre projectiles ou vollées de projectiles, altérer leur position à l'appartion, etc.",
+    "projectile_system_spawn_point_manager": "Il est également possible de définir plusieurs <i><b>SpawnPoints</i></b> pour le même <i>ProjectileSpawner</i>, avec un <i><b>SpawnPointManager</b></i> décrivant la stratégie d'appartition des projectiles pour s'adapter à tout type d'armes, et offrir un rendu plus satisfaisant !",
+    "projectile_system_spawn_point_manager_exemple": "Ci-dessous un exemple de deux tourelles, chacun équipée par un <i>ProjectileSpawner</i>. La première a deux <i>SpawnPoints</i>, et tire en continue. La seconde tourelle a quatre <i>SpawnPoints</i>, et tire des vollées de 2 projectiles consécutivement pour chaque côté. En utilisant le bon <i>SpawnPointManager</i> et en souscrivant aux events appropriés, nous pouvons très facilement adapter depuis où tirer les projectiles, quand jouer les animations et déclencher les effects visuels et sonores !",
+
+
     /* Spell System Modal */
     "spell_system_subtitle": "<i>Inspiré par Zelda<br />Tears of the Kingdom</i>",
     "spell_system_about_description_top": "Ce mini-projet a été initié pour apprendre à développer des interactions plus complexes et avancées entre le joueur et son environnement. Nous avons tenté de reproduire (d'une manière simplifiée) certains des sorts de Zelda ToTK. Cela nous a permis de développer les points suivants :",
@@ -34,7 +52,6 @@ var jsonDataFr = {
     "spell_system_ultrahand_1": "Enfin, le sort <i>ultrahand</i> aide le joueur à créer de nouvelles interactions et structures physiques en liant les objets ensemble. Dans cet exemple nous construisons une platforme permettant au joueur d'utiliser la tyrolienne.", 
     "spell_system_ultrahand_2": "Ce sort est de loin le plus complexe à appréhender. De nombreuses améliorations peuvent être réalisées, telles qu'offrir la possibilité de séparer les objets précédemment liés, offrir un meilleur contrôle de la caméra lors de l'activation du sort, des directions différentes pour lier les objets selon la normale des faces plutôt que du point de contact du raycast, etc.",
 
-
     /* Open World Modal */
     "open_world_description": "Un projet d'Open World introduire un ensemble de nouvelles fonctionnalités à développer et problématiques à comprendre et résoudre ! Voici les tâches réalisées dans ce projet :",
     "open_world_task_1": "Ajouté une <b>UI</b> pour les différents <b>menus</b> et notre <b>inventaire</b>;",
@@ -46,7 +63,7 @@ var jsonDataFr = {
     "open_world_task_7": "Manipulé quelques solutions d'optimisations de Unity comme des <i>chargements partiels de scène</i> et de l'<i>occlusion culling</i>;",
     "open_world_task_8": "Ajouté des effets visuels et sonores, adapté le level design, mis en place un système de sauvegarde, permis la customisation du joueur...",
     "open_world_github": "Code source disponible sur <a href='https://github.com/Naikaru/GameDev-OpenWorld' target='_blank'>Github</a>.",
-    "open_world_ui_desccription": "A few screeshots to highlight the menus UI that are not shown in the project demo above.",
+    "open_world_ui_desccription": "Quelques captures d'écrans pour souligner les menus (UI) non présentés dans la démo plus haut.",
 
     /* Tower Defense Modal */
     "tower_defense_description": "Un jeu de <i>Tower Defense</i> très classique, pour travailler sur la gestion des waves, des évènements, mais surtout une meilleure architecture orientée objet.",

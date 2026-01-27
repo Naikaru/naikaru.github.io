@@ -9,8 +9,8 @@ var jsonDataEn = {
 
     /* About */
     "about_title": "About me",
-    "about_text_left": "After almost 5 years as a Software Engineer, I have decided to transfer all my skills to make something that I deeply love: video games. Facing new challenges and problems and discussing of the infinite ways of solving them is what I loved the most about my job. Although similar in many ways, it requires me to acquire a lot of new skills, and making video games has become my new goal !",
-    "about_text_right": "I deeply admire these creators who have made me travel for thousands of hours, feel countless emotions, and even create relationships. I now aspire to be part of one of these projects myself ! This is why I started developing my own projects using either Unity or GameMaker. Making games is hard, it takes a lot of time, it requires to orchestrate hundreds of different pieces together, but most of all it's really exciting !",
+    "about_text_left": "After almost 5 years as a developer, I have decided to transfer all my skills to make something that I deeply love: video games. Facing new challenges and problems and discussing of the infinite ways of solving them is what I loved the most about my job. Although similar in many ways, it requires me to acquire a lot of new skills, and making video games has become my new goal !",
+    "about_text_right": "I deeply admire these creators who have made me travel for thousands of hours, feel countless emotions, and even create relationships.</br>I would love to be part of one of these projects myself ! This is why I started developing my own projects using either Unity or GameMaker. Making games is hard, it takes a lot of time, it requires to orchestrate hundreds of different pieces together, but most of all it's really exciting !",
     "about_cv": "Get my CV !",
 
     /* Modals Common */

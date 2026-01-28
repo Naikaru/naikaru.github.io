@@ -5,7 +5,7 @@ var jsonDataEn = {
     "navigation_contact": "Contact",
 
     /* Header */
-    "header_job_title": "Junior Game Programmer",
+    "header_job_title": "Junior Gameplay Programmer",
 
     /* About */
     "about_title": "About me",

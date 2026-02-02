@@ -1,0 +1,2 @@
+# Don't push mp4 video files
+assets/videos/mp4/*
